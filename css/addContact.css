@@ -1,0 +1,141 @@
+html {
+   min-height:100%;
+   
+}
+
+html,body{
+   height:99%;
+   width:100%;
+   font-family:Arial Narrow!important;
+}
+#contentWrapperId {
+   height:80%;
+   overflow-y:auto;
+}
+
+.container-height{
+	min-height: 100%;
+	height:100%;
+	
+}
+header{
+   color:white;
+   padding:25px;
+   background-color:#DF3A01;
+   margin-top: 0; 
+   margin-bottom: 10px; 
+   font-size:30px;
+}
+
+footer {
+   background-color:#DF3A01;
+   color:white;
+   position:relative;
+   margin: 0 auto;
+   width:100%;
+   bottom:0;
+   text-align:center;
+   padding:7px;
+}
+
+.grid-cintainter-height{
+    height:99%;
+    border-right-style: solid;
+    border-color:#D8D8D8; 
+    padding-right: 0px !important; 
+	
+}
+
+.add-btn-div{
+	 margin-bottom:25px;
+}
+
+.bottom-border-div{
+   border-bottom-style: solid;
+   border-color:#D8D8D8;
+   margin-bottom:15px;   
+}
+
+.top-border-div{
+   border-top-style: solid;
+   border-color:#D8D8D8;
+   margin-top:15px;  
+}
+.right-border-div{
+   border-right-style: solid;
+   border-color:#D8D8D8;  
+}
+.add-contact-text{
+   font-size:25px;
+   font-weight: bold;
+}
+
+.form-horizontal .control-label{
+   text-align:left;
+}
+
+
+.image-preview-container{
+   width:60%;
+   height:200px;
+   margin-bottom:3px;
+   background-image:linear-gradient(90deg,#6E6E6E,transparent 10%,transparent 90%,#6E6E6E),linear-gradient(0deg,#6E6E6E,#D8D8D8 10%,#D8D8D8 90%,#6E6E6E);
+   color:white;
+  
+}
+ .image-src-container{
+   width:100%;
+   height:100%;
+   line-height:200px;
+   font-weight:bold;
+   vertical-align:middle;
+ }
+ 
+
+ .alert {
+    padding: 3px!important;
+    margin-bottom: 1px !important;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+
+.contact-page-custom-btn{
+    color: #000000;
+    background-color: #FFFFFF;
+    border-color: #000000;
+	padding: 4px 12px !important;
+}
+
+.save-btn-span {
+  float:right;
+  margin-top:15px;
+}
+
+.contact-grid .ui-grid-viewport {
+  overflow:auto !important;
+}
+
+.ui-grid{
+border: 1px solid #FFFFFF !important;
+}
+
+
+
+.ui-grid-row .ui-grid-cell {
+    height:40px !important;
+	padding-top:5px !important;
+    border-top: 1px solid #D8D8D8;
+	 border-bottom: 1px solid #D8D8D8 !important;
+    background-color: #FFFFFF !important;
+    border-right: 0px !important;
+    
+}
+
+.grid-container-height{
+  height: 425px;
+}
+
+input:-webkit-autofill,select:-webkit-autofill {
+   background-color: #FFFFFF !important;
+   -webkit-box-shadow:0 0 0 1000px white inset !important;
+}
